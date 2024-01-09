@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 30%;
+    
+    justify-content: center;
+    border: 3px solid white;
+    border-radius:  35px;
+    padding: left;
+}
+.navbar{
+display: flex; 
+/*background-image: url("gymbg.jpg");
+/*background-color: black;*/
+text-align: center;
+position: sticky;
+cursor: pointer;
+justify-content: center;
+top: 0;
+border: 10px ;
+background-color: black ;
+opacity: 0.7;
+height: 80px;
+}
+
+.bgdip{
+    background-image: url("3.jpg");
+    background-size: cover;
+    background-color:burlywood;
+    height: 700px;
+
+    
+}
+.nav-list{
+
+width: 60%;
+
+ display: flex; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100;
+font-style: bold;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    justify-content: right;
+padding: 10px 10px;
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: blue;
+}
+.rightnav{
+    width: 40%;
+    text-align: right;
+    padding: 30px;
+    justify-content: right;
+    
+    
+}
+#search{
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom :60px;
+    border-color: red; 
+    
+    
+}
+.tex{
+    color: wheat;
+    padding: 30px;
+    border: 30px;
+    border-radius: 20px;
+    border-color:green;
+}
+   .box-main{
+       display: flex;
+       align-items: center;
+       padding: 30px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-style: italic;
+       justify-content: center;
+   }
+   .secondhalf{
+       padding: 30px;
+       padding-left: 200px;
+       padding-top: 10%;
+      
+   
+    }
+
+   .box-notmain{
+       background-color: rgba(0, 0, 0, 0.500);
+   }
+   .mg{
+       
+    size: 20px;
+    border: 10px solid black;
+    border-radius: 30px;
+    justify-content: left;
+   }
+   .firsthalf{
+       padding-left: 15px;
+       padding-top: 10%;
+       color: red;
+
+     
+      
+   }
+   .text-big{
+       font-size: 30px;
+   }
+   .text-small{
+       font-size: 25px;
+   }
+.hed{
+       background: url("forform1.jpg");
+       background-size: 100%;
+       height: 800px;
+       background-blend-mode: darken; 
+       display: flex;
+       padding-left: 480px ;
+      color: white;
+
+   }
+   .bdy{
+       
+        padding-left: 60px;
+        padding-top: 40px;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 50%;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid 
+       
+   }
+
+   h2{
+       text-align: center;
+       font-family: sans-serif;
+       font-size: x-large;
+       padding-bottom: 20px;
+       padding-right: 50px;
+       
+   }
+  label{
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+ 
+   }
+   #name{
+       width: 200px;
+       border: 1px solid #ddd;
+       border-radius: 3px;
+       padding: 3px;
+     
+   }
+   #subi{
+       width: 70px;
+       font-size: 20px;
+       font-family: serif;
+       border: 1px;
+       border-radius: 4px;
+       cursor: pointer;
+       background-color: orangered;
+   }
+   #frsprgh{ 
+       font-size: 25px;
+       font-style: oblique;
+       font-family: 'Times New Roman', Times, serif;
+       padding-bottom: 10px;
+   }
+   .topic{
+       display: flex;
+       flex-direction: row;
+       height: 500px;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       padding-top: 70px;
+       padding-left:100px
+       
+   }
+   .paragraph{
+       padding-top :30px; 
+       font-size: 25px;
+   }
+   .firstparagraph
+   {display: flex;
+padding-left:1px;
+padding-top: 30px;
+}
+.imge{
+    display: flex;
+    padding-bottom: 200px;
+    padding-right:50px;
+    padding-left: 100px;
+    padding-top:30px;
+    height: 270px;
+}
+.topicn{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 0px;
+    padding-left:100px
+}
+#frsprghn{ 
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+.paragraphm{
+
+    padding-top :20px; 
+    font-size: 25px;
+    justify-content: right;
+}
+#hlthl{
+ justify-content: right;
+ width: 450px;
+ height: 250px;
+}
+#contact{
+border: 20px solid red;
+border-radius: 4px;
+border-color: red;
+justify-content: center;
+align-items: center;
+
+padding: 30px;
+
+}
+.contact{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+ color: green;
+ display: flex;
+ padding-left: 400px;
+
+}
+#cnt{
+    
+    display: flex;
+    padding-left: 600px;
+    text-decoration: dotted;
+
+       font-size: 20px;
+       font-family: serif;
+       
+       
+       cursor: pointer;
+       color: black;
+       
+}
+#cnt:hover{
+    color: blue;
+}
+#ftpg{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+ color: red;
+
+ display: flex;
+ 
+
+}
+#contactus{
+    background-color: antiquewhite;
+}
+#scnpg{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+ color: red;
+
+ display: flex;
+}
+.hedy{
+    background: url("forform1.jpg");
+    background-size: 100%;
+    height: 500px;
+    background-blend-mode: darken; 
+    display: flex;
+    padding-left: 480px ;
+   color: white;
+
+}
+#back{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+ color: green;
+ display: flex;
+ padding-left: 4px;
+ padding-top: 100px;
+ 
+
+}
+#backk:hover{
+color: red;
+}
+#equip{
+    border: 30px solid orangered;
+    height: 100%;
+    background: url("3.jpg");
+    background-size: 100%;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#aboutgym{
+    background: url("forform1.jpg");
+    padding: 40px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: 100%;
+   
+
+}
+#more{
+    border: 5px solid red;
+    color: white;
+    background-color: black;
+    background-blend-mode: darken; 
+    opacity: 0.8;
+    padding: 20px;
+}
+#services{
+    color: yellow;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
